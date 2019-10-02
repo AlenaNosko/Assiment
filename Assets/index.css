@@ -1,0 +1,42 @@
+body {
+    padding: 30px;
+    background-color: lightcyan;
+}
+.container{
+    max-width: 980px; 
+    margin: 100px auto;
+    padding: 10px;
+    background: #d8dcf1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1)
+}
+.square {
+    position: relative;
+    max-width: 230px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+.my-button{
+    display: block;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: white;
+}
